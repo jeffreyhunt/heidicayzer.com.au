@@ -1,0 +1,22 @@
+/* Add here all your css styles (customizations) */
+
+.navbar-brand>img {
+    display: inline;
+}
+.one-page-header.spa-header .navbar-brand img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#img-intro {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#hcmt_banner {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.footer-logo {
+    max-width: none;
+}
