@@ -94,7 +94,9 @@
                     </li>
                     <li>
                         <i class="fa-li fa fa-map"></i>
-                        Kingsford Chiropractic Clinic<br>40 Bunnerong Road<br>KINGSFORD NSW 2035<br>02 9344 9072
+                        Kingsford Chiropractic Clinic<br>40 Bunnerong Road<br>KINGSFORD NSW 2035<br>02 9344 9072<br>
+                        <div id="GMapRoadmap" class="js-g-map embed-responsive embed-responsive-21by9" data-lat="40.748866" data-lng="-73.988366" data-pin="true"></div>
+                
                     </li>
                 </ul>
 
@@ -156,6 +158,23 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="/js/bootstrap.min.js"></script>
+        
+    <!-- JS Implementing Plugins -->
+    <script  src="/assets/gmaps/gmaps.min.js"></script>
+
+    <!-- JS Unify -->
+    <script  src="/assets/gmaps/hs.map.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script >
+    // initialization of google map
+    function initMap() {
+        $.HSCore.components.HSGMap.init('.js-g-map');
+    }
+    </script>
+
+    <script  src="//maps.googleapis.com/maps/api/js?key=API_KEY&amp;callback=initMap" async="" defer=""></script>
+                    
 
 </body>
 
