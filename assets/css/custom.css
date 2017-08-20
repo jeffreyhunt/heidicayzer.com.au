@@ -89,12 +89,12 @@ body {
   line-height: 1 !important;
 }
 
-.g-font-size-240--sm {
-  font-size: 17.14286rem !important;
-}
-
 .g-font-size-180 {
   font-size: 12.85714rem !important;
+}
+
+.g-font-size-240--sm {
+  font-size: 17.14286rem !important;
 }
 
 .g-absolute-centered {
@@ -105,10 +105,6 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-backface-visibility: hidden;
-}
-
-.g-mt-minus-8 {
-  margin-top: -0.57143rem !important;
 }
 
 .g-color-black {
