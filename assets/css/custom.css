@@ -73,3 +73,21 @@ body {
 .jumbotron {
   background-color:transparent !important;
 }
+
+.btn-purple {
+  background-color: #753e75;
+  color: #fff;
+  border-color: #582E58;
+}
+
+.btn-purple:focus {
+  color: #fff;
+  background-color: #582E58;
+  border-color: #582E58;
+}
+
+.btn-purple:hover {
+  color: #fff;
+  background-color: #582E58;
+  border-color: #582E58;
+}
