@@ -1,3 +1,6 @@
+---
+permalink: /index.html
+---
 ![Heidi Cayzer Massage Therapist](assets/img/heidicayzer_hdr.png)
 Heidi has over ten years of industry experience in sports, remedial and pregnancy massage. She is a qualified Remedial Massage Therapist, having obtained the following qualifications to meet both UK and Australian standards in massage therapy:
 
